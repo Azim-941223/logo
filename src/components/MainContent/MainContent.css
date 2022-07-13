@@ -1,0 +1,49 @@
+main{
+    border: 1px solid red;
+    width: 23%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.photo{
+    width: 100%;
+}
+.buy{
+    width: 95%;
+    margin: auto;
+}
+.buy h5{
+    margin-top: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.buy p{
+    margin-top: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+.cell{
+    margin-top: 10%;
+    margin-left: 8%;
+    width: 240px;
+    height: 44px;
+    left: 75px;
+    top: 344px;
+    background: #25B8E7;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
