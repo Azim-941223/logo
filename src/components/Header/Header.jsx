@@ -1,18 +1,16 @@
 import logo from './LOGO.svg'
-import './Header.css'
+import css from './Header.module.css'
 
 const Header = () => {
     return(
-        <header>
-            <div className="container">
-                <div className='logo'><img src={logo} alt="logotype" /></div>
-                <div className='header_info'>
-                    <a href=''>О нас</a>
-                    <a href="">Контакты</a>
-                    <a href=''>Войти</a>
-                </div>
-            </div>
-        </header>
+        <div className={css.wrapper}>
+            <h1>LOGO</h1>
+            <nav>
+                <a className={css.link} href="#">О нас</a>
+                <a className={css.link} href="#">Контакты</a>
+                <a className={css.link} href="#">Войти</a>
+            </nav>
+        </div>
     )
 }
 export default Header;
